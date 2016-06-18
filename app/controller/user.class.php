@@ -15,7 +15,7 @@ class user extends controller {
         //发送数据
 
         $this->rows=$rows;
-        //驱动模板显示内容
+        //驱动模板显示内容this is a text
         try {
             $this->display();
         } catch (SmartyCompilerException $ex) {
